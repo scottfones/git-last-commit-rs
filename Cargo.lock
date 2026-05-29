@@ -45,7 +45,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "git-last-commit"
+name = "git-last-commit-rs"
 version = "0.1.0"
 dependencies = [
  "git2",
