@@ -1,0 +1,12 @@
+[package]
+name = "git-last-commit-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+git2 = "0.21"
+jiff = "0.2"
+
+[profile.release]
+lto = true
+strip = true
