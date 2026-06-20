@@ -33,7 +33,7 @@ mod tests {
     use super::format_elapsed;
 
     #[test]
-    fn ceil_of_largest_unit() {
+    fn rounds_largest_unit() {
         assert_eq!(format_elapsed(10), "0m");
         assert_eq!(format_elapsed(40), "1m");
         assert_eq!(format_elapsed(60), "1m");
